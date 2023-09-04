@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asking Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body onload="startCountDown()">
+    <div class="container">
+        <h2>Answer these questions in less than 30 seconds <span id="countDown"></span></h2>
+    <p>1. What's Francia Capital=</p>
+    <input type="text" id="question1">
+    <p>2. (7 * 5) + 15</p>
+    <input type="text" id="question2">
+    <p>3. Chemical Symbol for Water?</p>
+    <input type="text" id="question3">
+    <p>4. What year was America discovered?</p>
+    <input type="text" id="question4">
+    <p>5. How old are you?</p>
+    <input type="text" id="question5">
+    <br>
+    <br>
+    <button onclick="finish()">Finish</button>
+    <br>
+    <br>
+    <button onclick="restart()">Restart</button>
+    <audio id="audioFinal()">
+        <source src="gameover.mp3" type="audio/mpeg">
+        Sound Error!
+    </audio>
+
+    <script src="./script.js"></script>
+    </div>
+</body>
+</html>

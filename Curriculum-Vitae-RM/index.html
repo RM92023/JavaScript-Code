@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>CV RM</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--BEGIN INDEX-->
+    <div class="headerContainer">
+        <header>
+            <div class="logo">
+                <a href="#index">RMJ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a id="selection" href="#index">INDEX</a></li>
+                    <li><a id="selection1" href="#aboutMe">ABOUT ME</a></li>
+                    <li><a id="selection2" href="#skills">SKILLS</a></li>
+                    <li><a id="selection3" href="#curriculum">CURRICULUM</a></li>
+                    <li><a id="selection4" href="#portfolio">PORTFOLIO</a></li>
+                    <li><a id="selection5" href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" id="nav-responsive"> <!--onclick="showHiddenMenu()"-->
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--END HEADER-->
+
+    <!--BEGIN SECTION INDEX-->
+    <section class="index" id="index">
+        <div class="bannerContent">
+            <div class="imgContainer">
+                <img src="/assets/images/rm.jpg" title="Robinson Muñetón Jaramillo">
+            </div>
+            <h1>ROBINSON MUÑETÓN JARAMILLO</h1>
+            <h2>Student - Holberton</h2>
+            <div class="socialMedia">
+                <a href="https://github.com/RM92023" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://holberton-school-org.slack.com/account/profile" target="_blank"><i class="fa-brands fa-slack"></i></a>
+                <a href="https://www.linkedin.com/in/rm92023/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/RM92023" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573017808173" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+            </div>
+        </div>
+    </section>
+    <!--END SECTION INDEX-->
+
+    <!--BEGIN SECTION ABOUT ME-->
+    <section class="aboutMe" id="aboutMe">
+        <div class="sectionContainer">
+            <h2>About Me</h2>
+            <p>
+                <span>Hi, I'm Robinson Muñetón Jaramillo</span>
+                I am a self-taught and passionate programmer who is dedicated to finding innovative solutions
+                to the most complex programming challenges. I have a strong commitment to my work and the success 
+                of the team. I am a strong and adaptable collaborator who is capable of working in a team and 
+                creating a positive and productive work environment. I am excited for the opportunity to apply 
+                my experience and skills as part of a team committed to excellence in software development.
+            </p>
+
+            <div class="row">
+                <!--Begin Personal Information-->
+                <!--<div class="column">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li><strong>Birthday</strong>20-10-1993</li>
+                        <li><strong>Phone Number</strong>+57 301 780 81 73</li>
+                        <li><strong>Email</strong>robinjara20@gmail.com</li>
+                        <li><strong>WebSite</strong>RM.github.io</li>
+                        <li><strong>Address</strong>Juan 23 Medellín, Colombia</li>
+                        <li><strong>Position</strong>STUDENT-FREELANCER</li>
+                    </ul>
+                </div>-->
+                <!--End Personal Information-->
+
+                <!--Begin Interests-->
+                <div class="column">
+                    <h3>Interests</h3>
+                    <div class="interestsContainer">
+                        <div class="interests"><i class="fa-sharp fa-solid fa-code"></i><span>CODE</span></div>
+                        <div class="interests"><i class="fa-solid fa-book"></i><span>READ</span></div>
+                        <div class="interests"><i class="fa-solid fa-gamepad"></i><span>PLAYS</span></div>
+                        <div class="interests"><i class="fa-solid fa-plane"></i><span>TRAVEL</span></div>
+                        <!--<div class="interests"><i class="fa-solid fa-headphones"></i><span>MUSIC</span></div>
+                        <div class="interests"><i class="fa-solid fa-person-hiking"></i><span>SPORT</span></div>
+                        <div class="interests"><i class="fa-solid fa-car"></i><span>CAR</span></div>
+                        <div class="interests"><i class="fa-solid fa-camera"></i><span>PHOTOS</span></div>-->
+                    </div>
+                </div>
+                <!--End Interests-->
+            </div>
+            <!--Begin Button CV RM-->
+            <button>
+               <a href="/cvpdf/CVRM.pdf" download="CV Robinson Muneton Jaramillo.pdf">Download CV<i class="fa-solid fa-download"></i><span class="overlay"></span></a>
+            </button>
+            <!--End Button CV RM-->
+        </div>
+    </section>
+    <!--END SECTION ABOUT ME-->
+
+    <!--BEGIN SECTION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="sectionContainer">
+            <h2>Skills</h2>
+            <div class="row">
+                <!--Begin Technical Skills-->
+                <div class="column">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>42%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>87%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>10%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Moodle</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>83%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & GitHub</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>95%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Technical Skills-->
+
+                <!--Begin Professional Skills-->
+                <div class="column">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>TeamWork</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>70%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>88%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>65%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>English</span>
+                        <div class="skillbar">
+                            <div class="progress"><span>35%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Professional Skills-->
+            </div>
+        </div>
+    </section>
+    <!--END SECTION SKILLS-->
+
+    <!--BEGIN SECTION CURRICULUM-->
+    <section class="curriculum" id="curriculum">
+        <div class="sectionContainer">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <!--Begin Education-->
+                <div class="left Column">
+                    <h3>Education</h3>
+                    <div class="left item">
+                        <h4>Software Development</h4>
+                        <span class="home">Technologist</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>
+                            Graduated in Software Development Technology with skills in software design, systems analysis, project management, and application development.
+                        </p>
+                        <div class="leftConnector">
+                            <div class="leftCircle"></div>
+                        </div>
+                    </div>
+
+                    <!--<div class="left item">
+                        <h4>Software Development</h4>
+                        <span class="home">University</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo aperiam sint architecto beatae at ex ipsum? Beatae aperiam praesentium in commodi delectus ullam ea. Inventore veniam labore suscipit quos.</p>
+                        <div class="leftConnector">
+                            <div class="leftCircle"></div>
+                        </div>
+                    </div>
+
+                    <div class="left item">
+                        <h4>Software Development</h4>
+                        <span class="home">University</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo aperiam sint architecto beatae at ex ipsum? Beatae aperiam praesentium in commodi delectus ullam ea. Inventore veniam labore suscipit quos.</p>
+                        <div class="leftConnector">
+                            <div class="leftCircle"></div>
+                        </div>
+                    </div>-->
+                </div>
+                <!--End Education-->
+
+                <!--Begin Experience-->
+                <div class="right Column">
+                    <h3>Work Experience</h3>
+                    <div class="right item">
+                        <h4>Projects in my portfolio</h4>
+                        <span class="home">Freelancer</span>
+                        <span class="date">2021 - NOW</span>
+                        <p>
+                            As a freelancer in web development with a focus on HTML, CSS, JS, and Moodle, I have the ability to dynamically optimize online courses.
+                        </p>
+                        <div class="rightConnector">
+                            <div class="rightCircle"></div>
+                        </div>
+                    </div>
+
+                    <!--<div class="right item">
+                        <h4>Front Developer</h4>
+                        <span class="home">Company</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo aperiam sint architecto beatae at ex ipsum? Beatae aperiam praesentium in commodi delectus ullam ea. Inventore veniam labore suscipit quos.</p>
+                        <div class="rightConnector">
+                            <div class="rightCircle"></div>
+                        </div>
+                    </div>
+
+                    <div class="right item">
+                        <h4>Front Developer</h4>
+                        <span class="home">Company</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo aperiam sint architecto beatae at ex ipsum? Beatae aperiam praesentium in commodi delectus ullam ea. Inventore veniam labore suscipit quos.</p>
+                        <div class="rightConnector">
+                            <div class="rightCircle"></div>
+                        </div>
+                    </div>-->
+                </div>
+                <!--End Experience-->
+            </div>
+        </div>
+    </section>
+    <!--END SECTION CURRICULUM-->
+
+    <!--BEGIN SECTION PORTFOLIO-->
+    <section class="portfolio" id="portfolio">
+        <div class="sectionContainer">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <!--Begin My Portfolio-->
+                <div class="project" title="click me in the text for watch my repository!">
+                   <img src="https://images.pexels.com/photos/4253621/pexels-photo-4253621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="overlay">
+                        <!-- Inicio Enlace al proyecto -->
+                        <a href="https://rm92023.github.io/simple-blackjack/" target="_blank"><h3>Simple Blackjack</h3>
+                        <p>Blackjack game in JS</p></a><!-- Fin enlace al proyecto -->
+                    </div>
+                </div>
+                <div class="project" title="click me in the text for watch my repository!">
+                    <img src="https://images.pexels.com/photos/6956320/pexels-photo-6956320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="overlay">
+                        <a href="https://rm92023.github.io/ToDoList/" target="_blank"><h3>To Do Lists</h3>
+                        <p>list of things to do in JS</p></a>
+                    </div>
+                </div>
+                <!--<div class="project">
+                    <img src="images/rm.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                        <p>Creative Design</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/rm.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                        <p>Creative Design</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/rm.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                        <p>Creative Design</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/rm.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Photography</h3>
+                        <p>Creative Design</p>
+                    </div>
+                </div>-->
+
+                <!--End My Portfolio-->
+            </div>
+        </div>
+    </section>
+    <!--END SECTION PORTFOLIO-->
+
+    <!--BEGIN SECTION CONTACT-->
+    <section class="contact" id="contact">
+        <div class="sectionContainer">
+            <h2>Contact</h2>
+            <div class="row">
+                <!--Begin Form-->
+                <div class="column">
+                    <form action="https://formsubmit.co/fd51743ab280f60c08668110fdeb3529" method="POST" />
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="text" name="topic" id="topic" placeholder="Topic" required>
+                    <textarea name="areaMessage" id="areaMessage" cols="30" rows="9" placeholder="Message" required></textarea>
+                    <button type="submit">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    <input type="hidden" name="_next" value="https://rm92023.github.io/RM-CV/">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+                <!--End Form-->
+
+                <!--Begin Map-->
+                
+                <!--<div class="column">
+                    <img src="images/rm.jpg" alt="">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.982376738552!2d-75.61592952989528!3d6.2660476798489295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429666f46aab5%3A0x61c4afd21a687b4b!2sCl.%2049B%20%2399b-103%2C%20Juan%20XXIII%2C%20Medell%C3%ADn%2C%20San%20Javier%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1681338532988!5m2!1ses!2sco" width="400" height="86.5%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Medellín</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i>Call me 301 780 81 73</li>
+                            <li><i class="fa-solid fa-envelope"></i>Email: robinjara20@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>-->
+
+                <!--End Map-->
+            </div>
+        </div>
+    </section>
+    <!--END SECTION CONTACT-->
+
+    <!--BEGIN FOOTER-->
+    <footer>
+        <a href="#index" class="upToIndex">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="socialMedia">
+            <a href="https://github.com/RM92023" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://holberton-school-org.slack.com/account/profile" target="_blank"><i class="fa-brands fa-slack"></i></a>
+            <a href="https://www.linkedin.com/in/rm92023/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/RM92023" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=573017808173" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+        </div>
+    </footer>
+    <!--END FOOTER-->
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Report</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body onload="listNotes()">
+    <h2>School Report</h2>
+
+    <div class="student">
+        <h3>Student Robinson</h3>
+    </div>
+
+    <h4>
+        <ul id="listNotes"></ul>
+    </h4>
+
+    <h4>Average: <span id="average"></span></h4>
+    <button onclick="calculateAverage()">Average</button>
+
+    <h4>Highhest Notes: <span id="highhestNotes"></span></h4>
+    <button onclick="calculateHighhestNotes()">Highhest Notes</button>
+
+    <h4>Postponements: <span id="postponements"></span></h4>
+    <button onclick="calculatePostponements()">Postponements</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
